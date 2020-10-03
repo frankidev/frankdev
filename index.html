@@ -7,67 +7,102 @@
     <title>FrankDev</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"> 
     <link rel="stylesheet" href="css/style-1.css">
-    <link href="https://fonts.googleapis.com/css2?family=Ewert&family=Libre+Franklin:wght@100&family=Roboto:wght@500&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ </head>
 <body>
-<header>
-    <h1>Frank-Jr.-Dev</h1>
-    
-    <nav>
-        <ul>
-        <li><a href="#">Contacto</a></li>
-        <li><a href="#">Sobre Mi</a></li>
-        <li><a href="#">Mis Servicios</a></li>
+    <div class="container-fluid">
+     <nav class="navbar navbar-expand-sm bg-light fixed-top ">
+        <a class="navbar-brand" href="#">
+            <img src="data/fotocv.png" alt="Logo" style="width:40px;" >
+        </a> 
+             <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
     </ul>
-    </nav>
-</header>
-<main>
-    <div class="seccion-principal">
-    <section class="seccion-principal-1">
-        <div class="cabecera-seccion">
-        <h2>Desarrollo web a tu medida</h2>
-    </div>
-    <div class="lista-proyectos">
-        <ul>
-            <li>Landing Pages</li>
-            <li>Web Institucional</li>
-            <li>Portfolio para tus Proyectos</li>
-            <li>Tiendas Virtuales</li>
-        </ul>
-    </div>
-    </section>
-    <section class="contacto">
-          <div class="Ponte en contacto conmigo">
-        <ul>
-        <h4>Ponte en Contacto</h4>
-        <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-        </ul>
-    </div>
-    </section>
-</div>
-</main>
-<aside>
-    <div class="tarjetas">
-        <div class="tarjeta"><i class="fab fa-html5"></i><h5>Html 5</h5></div>
-        <div class="tarjeta"><i class="fab fa-css3-alt"></i><h5>Css 3</h5></div>
-        <div class="tarjeta"><i class="fas fa-desktop"></i><h5>Responsive Design</h5></div>
-    </div>
-</aside>
+  </div>
+</nav>
 
-<div class="fotos">
-    <input type="radio" id="input1" name="slider" checked autofocus>
-    <label for="input1"></label>
-    <div class="img-slide bg1"><span>Pone en marcha<br> tu comercio digital</span></div>
-    <input type="radio" id="input2" name="slider">
-    <label for="input2"></label>
-    <div class="img-slide bg2"><span class="span-2">Convierte tus ideas en ganancias reales.</span></div>
-    <input type="radio" id="input3" name="slider" >
-    <label for="input3"></label>
-    <div class="img-slide bg3"><span class="span-3"> Diseño 100% Responsive</span></div>
-    <input type="radio" id="input4" name="slider">
-    <label for="input4"></label>
-    <div class="img-slide bg4"></div>
+<div id="demo" class="carousel slide"  data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+  
+    <!-- The slideshow -->
+    <div class="carousel-inner container">
+      <div class="carousel-item active">
+        <img src="data/4.jpg" class="img-fluid" alt="Los Angeles">
+      </div>
+      <div class="carousel-item">
+        <img src="data/6.jpg" class="img-fluid" alt="Chicago">
+      </div>
+      <div class="carousel-item">
+        <img src="data/5.jpg" class="img-fluid" alt="New York">
+      </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev " href="#demo" data-slide="prev">
+        <i class="fas fa-arrow-circle-left"></i>
+
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <i class="fas fa-arrow-alt-circle-right"></i>
+    </a>
+  
+</div>
+<div class="card-columns container">
+<div class="card" >
+    <img class="card-img-top" src="data/html-3813614_640.jpg" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">Html5</h4>
+      <p class="card-text">Lenguaje de Marcado</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+  <div class="card" >
+    <img class="card-img-top" src="data/html-3813614_640.jpg" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">Html5</h4>
+      <p class="card-text">Lenguaje de Marcado</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+  <div class="card" >
+    <img class="card-img-top" src="data/html-3813614_640.jpg" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">Html5</h4>
+      <p class="card-text">Lenguaje de Marcado</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+</div>
 </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
