@@ -7,18 +7,22 @@
     <title>FrankDev</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"> 
     <link rel="stylesheet" href="css/style-1.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
  </head>
 <body>
     <div class="container-fluid">
-     <nav class="navbar navbar-expand-sm bg-light fixed-top ">
+     <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">
-            <img src="data/fotocv.png" alt="Logo" style="width:40px;" >
+            <img src="data/fotocv.png" alt="Logo" class="rounded-circle" style="width:40px;" >
         </a> 
              <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+    <i class="fas fa-bars"></i>
   </button>
 
   <!-- Navbar links -->
@@ -28,10 +32,10 @@
         <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#">About Us</a>
       </li>
     </ul>
   </div>
@@ -102,6 +106,31 @@
       <a href="#" class="btn btn-primary">See Profile</a>
     </div>
   </div>
+</div>
+<div class="container-fluid bg-dark formulario">
+  <div class="row">
+<form action="correo.php" class="col" >
+  <div class="form-row" id="contact">
+  <input type="text" class="form-control" placeholder="Nombre">
+  <input type="text" class="form-control" placeholder="Apellido">
+  <input type="text" class="form-control" placeholder="Email">
+  <textarea name="Consulta" class="form-control" id="" cols="30" rows="10" placeholder="Deja tu consulta"></textarea>
+  <input type="submit" class="form-control bg-info" placeholder="Enviar">
+</div>
+</form>
+<div class="texts col" >
+  <h1>Desarrollo web a tu medida</h1>
+  <h2>¿Queres empezar tu pagina web y no sabes por donde empezar?</h2>
+  <ul class="display-5">
+    <li><i class="fab fa-sketch"></i>Webs Instucionales</li>
+    <li><i class="fab fa-sketch"></i>Landing Pages</li>
+    <li><i class="fab fa-sketch"></i>Paginas de Venta</li>
+  </ul>
+</div>
+</div>
+<div>
+
+</div>
 </div>
 </div>
 
