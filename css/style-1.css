@@ -149,15 +149,16 @@ ul li .fa-sketch {
     }
 
     .display-5 li {
-        font-
-        size: 50%;
+        font-size: 50%;
+        
     }
     .about-us {
         text-align: center;
-        padding:3em;
+        padding:1em;
         border-top-left-radius: 0%;
         border-bottom-left-radius: 50%;
         border-bottom-right-radius: 50%;
+        height: 80%;
     }
 }
 
